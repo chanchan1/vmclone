@@ -44,7 +44,8 @@ Always use a vm template to clone. For best cloning results follow these instruc
 ### Usage
 
 ```bash
-$ perl vmclone2.pl --customize_guest yes \
+$ perl vmclone.pl --customize_guest yes \
+--customize_vm yes \
 --username "username@vsphere.local" \
 --password $PASSWORD \
 --vmhost $VM_HOST \
